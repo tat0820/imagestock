@@ -1,0 +1,124 @@
+
+.header{
+  position:fixed;
+  width:100%;
+  height:70px;
+  background-color:white;
+  color:#333;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.header-wrapper{
+  display:flex;
+  justify-content:space-between;
+
+}
+
+.header-title{
+  padding-top:15px;
+  padding-left:600px;
+  &__link{
+    text-decoration:none;
+    color:#333;
+    font-size:30px;
+    font-family:Georgia;
+  }
+}
+
+.right-navi{
+  display:flex;
+
+  &__signup{
+    padding-top:15px;
+    margin-right:10px;
+
+    &__btn{
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      color: #433d3c;
+      width: 120px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 5px;
+      text-align: center;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      font-family:Georgia;
+    }
+  }
+
+  &__login{
+    padding-top:15px;
+    padding-right:30px;
+    &__btn{
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      color: #433d3c;
+      width: 120px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 5px;
+      text-align: center;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      font-family:Georgia;
+    }
+  }
+}
+
+.post-btn{
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #433d3c;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-family:Georgia;
+}
+
+.user_right_navi{
+  padding-top:15px;
+  padding-right:30px;
+  &__logout-btn{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #433d3c;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-family:Georgia;
+  
+  }
+}
+
+// .user_right-navi__logout-btn{
+//   display: inline-block;
+//   position: relative;
+//   text-decoration: none;
+//   color: #433d3c;
+//   width: 120px;
+//   height: 40px;
+//   line-height: 40px;
+//   border-radius: 5px;
+//   text-align: center;
+//   overflow: hidden;
+//   background: white;
+//   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+//   font-family:Georgia;
+// }

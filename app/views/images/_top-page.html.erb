@@ -1,0 +1,11 @@
+
+<div class="main-content" >
+<% @images.shuffle.each do |image| %>
+    <div class="image-post">
+      <a href="javascript:void(0);" id="movie01" data-mvnum="1"><img src=<%= image.image %> class=image-post__image></a>
+      <div class="image-post__name"><%= image.name %></div>
+    </div>
+<% end %>
+  </div>
+
+  

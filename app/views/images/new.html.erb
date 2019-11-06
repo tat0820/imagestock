@@ -1,0 +1,16 @@
+
+<%= render partial: "header" %>
+<div class="boo"></div>
+<div class="send-form">
+  <%= form_tag('/images', method: :post) do %>
+    <div class="send-start">
+      Upload
+    </div>
+    <ul>
+      <li><input placeholder="Cover Name" type="string" name="name" class= "send-name"></li>
+      <li><input placeholder="Image Url" type="text" name="image"  class= "send-image"></li>
+      <li><textarea cols="30" name="text" placeholder="Artist Name" rows="10"  class= "send-text"></textarea></li>
+      <li><input type="submit" value="SENT"  class= "send-btn"></li>
+    </ul>
+  <% end %>
+</div>

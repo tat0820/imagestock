@@ -1,0 +1,44 @@
+
+.login-wrapper{
+  text-align:center;
+  padding-top:30px;
+  width:600px;
+  margin:0 auto;
+  background: white;
+  height: 400px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.login-width{
+  width:514px;
+  margin:0 auto;
+}
+
+.login-text{
+  font-size:30px;
+  margin-bottom:10px;
+  font-family:Georgia;
+}
+
+#user_email,#user_password{
+  padding-left: 10px;
+  margin: 8px 0;
+  width:500px;
+  height:40px;
+}
+
+.actions input{
+  width: 300px;
+  display: block;
+  padding: 5px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background: #a1d8e6;
+  font-size: 20px;
+  margin: 20px auto 0;
+}
+
+.field label{
+  float:left;
+}
