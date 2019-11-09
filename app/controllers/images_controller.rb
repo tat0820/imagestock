@@ -10,12 +10,12 @@ class ImagesController < ApplicationController
   end
 
   def create
-    Image.create(name: image_params[:name], image: image_params[:image], text: image_params[:text], user_id: current_user.id)
+    Image.create(name: image_params[:name], image: image_params[:image], text: image_params[:text], url: image_params[:text],user_id: current_user.id)
   end
 
   private
   def image_params
-    params.permit(:name, :image, :text)
+    params.permit(:name, :image, :text, :url)
   end
 
   def move_to_index

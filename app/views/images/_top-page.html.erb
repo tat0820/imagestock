@@ -2,10 +2,22 @@
 <div class="main-content" >
 <% @images.shuffle.each do |image| %>
     <div class="image-post">
-      <a href="javascript:void(0);" id="movie01" data-mvnum="1"><img src=<%= image.image %> class=image-post__image></a>
+      <img src=<%= image.image %> class="image-post__image" data-url= <%= image.url%>>
       <div class="image-post__name"><%= image.name %></div>
     </div>
 <% end %>
   </div>
 
-  
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script>
+
+$(function(){
+  $(".image-post__image").on('click',function(){
+  var datas = $(this).data();
+  var youtubes = `<iframe  width="320" height="310" src="https://www.youtube.com/embed/${datas.url}controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=k6ZTJHH15es&amp;muted=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+  $(this).fadeOut(1);
+  $(this).parent().prepend(youtubes)
+  });
+});
+
+  </script>
