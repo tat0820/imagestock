@@ -1,6 +1,6 @@
 class ImagesController < ApplicationController
   
-  # before_action :move_to_index, except: :index
+  before_action :move_to_index, except: :index
 
   def index
     @images=Image.all
@@ -10,12 +10,12 @@ class ImagesController < ApplicationController
   end
 
   def create
-    Image.create(name: image_params[:name], image: image_params[:image], text: image_params[:text], url: image_params[:text],user_id: current_user.id)
+    Image.create(name: image_params[:name], image: image_params[:image], artist_name: image_params[:artist_name], url: image_params[:url],user_id: current_user.id)
   end
 
   private
   def image_params
-    params.permit(:name, :image, :text, :url)
+    params.permit(:name, :image, :artist_name, :url)
   end
 
   def move_to_index

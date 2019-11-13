@@ -20,4 +20,19 @@ $(function(){
   });
 });
 
+$(function(){
+$(window).scroll(function (){
+  $('.image-post').each(function(){
+      var elemPos = $(this).offset().top,
+          scroll = $(window).scrollTop(),
+          windowHeight = $(window).height();
+        if (scroll > elemPos - windowHeight + 50){
+            $(this).addClass('scrollin');
+          }
+      });
+  });
+$(window).scroll();
+});
+
+
   </script>

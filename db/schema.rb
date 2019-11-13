@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_06_073617) do
+ActiveRecord::Schema.define(version: 2019_11_09_075848) do
 
   create_table "images", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.text "text"
+    t.string "artist_name"
     t.text "image"
     t.datetime "created_at"
     t.datetime "updated_at"
