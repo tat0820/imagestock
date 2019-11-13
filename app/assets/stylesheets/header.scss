@@ -6,6 +6,7 @@
   background-color:white;
   color:#333;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+  z-index:1;
 }
 
 .header-wrapper{
@@ -16,7 +17,7 @@
 
 .header-title{
   padding-top:15px;
-  padding-left:600px;
+  padding-left:650px;
   &__link{
     text-decoration:none;
     color:#333;
