@@ -12,6 +12,10 @@
   height:400px;
   background-color:white;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 1500ms;
 
   &__image{
     margin:10px;
@@ -29,3 +33,7 @@
   }
 }
 
+.image-post.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
