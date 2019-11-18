@@ -8,8 +8,7 @@ One day I thought that it would be amazing if there's an app that I can see all 
 and also can listen to the music of them.<br>
 <br> 
 This is a really simple app.<br>
-Enjoy watching those artworks and if you're interested, click the picure.<br>
-So the picture turns to youtube, and starts playing the music.
+Enjoy watching those artworks and if you're interested, click the picure.So the picture turns to youtube, and starts playing the music.
 
 
 
