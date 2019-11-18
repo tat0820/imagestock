@@ -1,24 +1,15 @@
-# README
+## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#COVERSTOCK
+COVERSTOCK is an app that can watch the collection of cd artworks that I chose.<br>
+<br>
+I've been stocking the pictures of cd artworks that I really liked in my iphone.<br>
+One day I thought that it would be amazing if there's an app that I can see all those pictures in one page,
+and also can listen to the music of them.<br>
+<br> 
+This is a really simple app.<br>
+Enjoy watching those artworks and if you're interested, click the picure.<br>
+So the picture turns to youtube, and starts playing the music.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
