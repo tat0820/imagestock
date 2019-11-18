@@ -10,5 +10,7 @@ and also can listen to the music of them.<br>
 This is a really simple app.<br>
 Enjoy watching those artworks and if you're interested, click the picure.So the picture turns to youtube, and starts playing the music.
 
+![coverstock](coverstock.gif)
+
 
 
