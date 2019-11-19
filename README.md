@@ -1,16 +1,21 @@
 ## README
 
 # COVERSTOCK
-COVERSTOCK is an app that can watch the collection of cd artworks that I chose.<br>
-<br>
-I've been collecting the pictures of music artworks that I really liked in my iphone.<br>
-One day I thought that it would be amazing if there's an app that I can see all those pictures in one page,
-and also can listen to the music of them.<br>
-<br> 
-This is a really simple app.<br>
-Enjoy watching those artworks and if you're interested, click the picure.So the picture turns to youtube, and starts playing the music.
+登録されているアートワークがランダム表示され、画像をクリックするとYouTubeの動画が再生される。
 
 ![coverstock](coverstock.gif)
 
+## 制作背景
+好きなCDのアートワークを集めてiphone内に保存していたが、<br>
+それらを一覧で見ることができるアプリを作りたいと考えた。<br>
+また、それらのCDがどんな音楽を流しているのかを知りたいと思い、<br>
+アートワークと連動して音楽を聴くことができる仕様を目指した。
 
+## 工夫したところ
+・新規登録、ログイン機能<br>
+・YouTube動画の埋込み　等
+
+## 今後実装したい機能
+・コメント機能<br>
+・レビュー機能
 
